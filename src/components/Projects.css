@@ -1,0 +1,91 @@
+.projects-section {
+  padding: 60px 20px;
+  background-color: #000000;
+  color: #f1f5f9;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  color: #e9e6ef;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  margin-bottom: 30px;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background: #334155;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.tabs button.active,
+.tabs button:hover {
+  background: #5316e1;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: #060a15;
+  border-radius: 12px;
+  padding: 20px;
+  color: #e8ecf2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  background: #3a82ab;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.project-card h3 {
+  color: #b0e10e;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #c672ec;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Expanded styles */
+.project-card.expanded {
+  background: #475569;
+}
