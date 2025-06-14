@@ -52,20 +52,7 @@
   color: #38bdf8;
 }
 
-/* Hero Background */
-.hero-bg {
-  background-image: url('D:/INTERNSHIP PROCESS/INTERN PROJECTS/Portfolio/portfolio/public/portfolio_background.jpg'); /* Relative path from public */
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.9;
-}
+
 
 /* Hero Section */
 .hero {
